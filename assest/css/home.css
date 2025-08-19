@@ -1,0 +1,277 @@
+*{
+    margin: 0%;
+}
+.header{
+    background-image: url(/images/movie\ header\ 1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    justify-content: right;
+}
+.navbar a{
+    font-size: 30px;
+    text-decoration: none;
+    margin-inline: 20px;
+    margin-top: 15px;
+    color:aliceblue ;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+    color: brown;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.link{
+    height: 550px;
+    display: flex;
+    align-items: end;
+}
+.link i{
+    font-size: 40px;
+    margin-inline: 15px;
+    padding: 5px;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid black;
+    color: black;
+}
+.link i:hover{
+    cursor: pointer;
+    color: brown;
+}
+.about{
+    height: 100vh;
+    background-image: url(/images/about\ background);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.para-about{
+    width: 50%;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+   font-family: "Orbitron", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 600;
+   font-style: normal;
+}
+.img-about{
+    width: 400px;
+    border-radius: 20px;
+    border: 7px groove lightslategrey;
+}
+.cards{
+    height: 100vh;
+    background-image: url(/images/cards\ back\ ground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.h2{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100px;
+}
+.cards h2{
+    text-align: center;
+    font-size: 35px;
+    background-color: white;
+    border-radius: 10px;
+    border: 3px solid black;
+    padding: 5px;
+    width: 300px;
+    font-family: "Twinkle Star", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.card-movie{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.child{
+    height: 600px;
+    width: 20%;
+    border-radius: 20px;
+    border: 5px inset oldlace;
+}
+.child1{
+background-color: rgba(48,152 ,152 , 0.7);
+
+
+}
+.child2{
+    background-color: rgba(255,159 ,0 , 0.7);
+
+}
+.child3{
+    background-color: rgba(244, 99,30 , 0.7);
+
+}
+.child4{
+    background-color: rgba(203,4 ,4 , 0.7);
+
+}
+.contact{
+    height: 100vh;
+    background-image: url(/images/contact\ movie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.contact-h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    
+}
+.contact-h2 h2{
+    background-color: aliceblue;
+    border-radius: 20px;
+    border: 5px solid black;
+    padding: 5px;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.form label{
+    display: inline-block;
+    width: 180px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    border-radius: 10px;
+    border:3px solid purple;
+    background-color: antiquewhite;
+    
+}
+.form input{
+    
+    width: 50%;
+    border-radius:20px ;
+    border: 3px solid mediumslateblue;
+    font-size: 20px;
+}
+.form select{
+    width: 50.5%;
+    border-radius:20px ;
+    border: 3px solid mediumslateblue;
+    font-size: 20px;
+
+}
+.submit:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+.child1 img{
+    width: 99%;
+    border-radius: 20px;
+    border: 2.5px solid white;
+}
+.child1 a{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: black;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+}
+.child1 p{
+    font-size: 15px;
+    text-align: center;
+    font-family: "Twinkle Star", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.child2 img{
+     width: 99%;
+    border-radius: 20px;
+    border: 2.5px solid white;
+}
+.child2 a{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: black;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+}
+.child2 p{
+    font-size: 15px;
+    text-align: center;
+    font-family: "Twinkle Star", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.child3 img{
+     width: 99%;
+    border-radius: 20px;
+    border: 2.5px solid white;
+}
+.child3 a{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: black;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+}
+.child3 p{
+    font-size: 15px;
+    text-align: center;
+    font-family: "Twinkle Star", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.child4 img{
+     width: 99%;
+    border-radius: 20px;
+    border: 2.5px solid white;
+}
+.child4 a{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: black;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+}
+.child4 p{
+    font-size: 15px;
+    text-align: center;
+    font-family: "Twinkle Star", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}

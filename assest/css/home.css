@@ -22,6 +22,11 @@
     font-optical-sizing: auto;
     font-weight: bolder;
     font-style: normal;
+   
+}
+.navbar a:hover{
+    color: darkred;
+
 }
 .title{
     text-align: center;
@@ -37,19 +42,26 @@
     align-items: end;
 }
 .link i{
+
     font-size: 40px;
     margin-inline: 15px;
-    padding: 5px;
+    padding: 10px;
     background-color: white;
     width: 40px;
     height: 40px;
     border-radius: 50%;
     border: 2px solid black;
     color: black;
+    
 }
 .link i:hover{
     cursor: pointer;
-    color: brown;
+    color: white;
+    background-color: darkred;
+    box-shadow: 4px 5px 7px rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease-in;
+    border-style: dotted;
+    border-color: white;
 }
 .about{
     height: 100vh;
@@ -183,12 +195,12 @@ background-color: rgba(48,152 ,152 , 0.7);
     background-color: brown;
     cursor: pointer;
 }
-.child1 img{
+.child img{
     width: 99%;
     border-radius: 20px;
     border: 2.5px solid white;
 }
-.child1 a{
+.child a{
     display: flex;
     justify-content: center;
     font-size: 25px;
@@ -198,7 +210,8 @@ background-color: rgba(48,152 ,152 , 0.7);
     font-weight: bolder;
     font-style: normal;
 }
-.child1 p{
+
+.child p{
     font-size: 15px;
     text-align: center;
     font-family: "Twinkle Star", cursive;
@@ -206,72 +219,8 @@ background-color: rgba(48,152 ,152 , 0.7);
     font-style: normal;
 
 }
-.child2 img{
-     width: 99%;
-    border-radius: 20px;
-    border: 2.5px solid white;
-}
-.child2 a{
-    display: flex;
-    justify-content: center;
-    font-size: 25px;
-    color: black;
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bolder;
-    font-style: normal;
-}
-.child2 p{
-    font-size: 15px;
-    text-align: center;
-    font-family: "Twinkle Star", cursive;
-    font-weight: 400;
-    font-style: normal;
 
-}
-.child3 img{
-     width: 99%;
-    border-radius: 20px;
-    border: 2.5px solid white;
-}
-.child3 a{
-    display: flex;
-    justify-content: center;
-    font-size: 25px;
-    color: black;
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bolder;
-    font-style: normal;
-}
-.child3 p{
-    font-size: 15px;
-    text-align: center;
-    font-family: "Twinkle Star", cursive;
-    font-weight: 400;
-    font-style: normal;
-
-}
-.child4 img{
-     width: 99%;
-    border-radius: 20px;
-    border: 2.5px solid white;
-}
-.child4 a{
-    display: flex;
-    justify-content: center;
-    font-size: 25px;
-    color: black;
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bolder;
-    font-style: normal;
-}
-.child4 p{
-    font-size: 15px;
-    text-align: center;
-    font-family: "Twinkle Star", cursive;
-    font-weight: 400;
-    font-style: normal;
+.child a:hover{
+    color: antiquewhite;
 
 }
